@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2014 by cnev177 (http://jsbin.com/botifi/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<!--[if IE 7]>         <html class="o-useragent-ie7 o-hoverable-on"> <![endif]-->
+<!--[if IE 8]>         <html class="o-useragent-ie8 o-hoverable-on"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="o-hoverable-on"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>o-ft-header: skeleton demo</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <script src="http://polyfill.webservices.ft.com/v1/polyfill.min.js"></script>
+    <style>body { margin: 0; }.demo-js .o--if-nojs { display: none; }</style>
+    <link rel="stylesheet" href="http://build.origami.ft.com/bundles/css?modules=o-ft-header@2.5.13:/demos/src/scss/demo.scss">
+  <link rel="stylesheet" href="http://build.origami.ft.com/bundles/css?modules=o-colors@^2.4.3" />
+  <link rel="stylesheet" href="http://build.origami.ft.com/bundles/css?modules=o-grid@^2.2.0" />
+  <link rel="stylesheet" href="http://build.origami.ft.com/bundles/css?modules=o-fonts@^1.4.2" />
+  <link rel="stylesheet" href="http://build.origami.ft.com/bundles/css?modules=o-ft-typography@^1.13.1" />
+  <link rel="stylesheet" href="http://build.origami.ft.com/bundles/css?modules=o-ft-forms@^0.11.0" />
+<style id="jsbin-css">
+.o-ft-header{
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+background:url(http://interactivegraphics.ft-static.com/static/sites/2014/silver-economy/silverEconomy_logo.png)no-repeat #5f88b6;
+ }
+
+.main-content h2{
+  font-weight:200;
+  border:0 none;
+  font-size: 2em;
+  
+}
+
+.stickable{
+  position: fixed;
+  min-height:80px;
+  
+  
+}
+
+body, html {
+  overflow:visible !important;
+ 
+}
+
+.ft-masterhead{
+  text-align:center;
+ }
+
+h1{
+text-align: center;
+margin: 0 auto auto;
+font-family: MillerDisplay,Clarion,Georgia,serif;
+padding-top:130px;
+font-weight: 400;
+font-size: 3em;
+}
+
+.main-content{
+  float:none;
+  margin: auto;
+
+  
+ 
+}
+
+.demo_content{
+  /* text-align:center; */
+  
+}
+
+.intro-text{
+font-family: Clarion,Georgia,serif;
+font-size: 1em;
+line-height: 1.5em;
+color: #43423e;
+}
+
+.main-content .country-drop-down {
+  margin-top:16px;
+ 
+   }
+.main-content .country-drop-down select{
+  width:100%;
+}
+
+
+.country-title{
+  float:left;
+  
+}
+</style>
+</head>
+<body class="o-hoverable-on o-colors-page-background o-ft-typography-article-body-wrapper">
+    <script>(function(d) {var b = d.getElementsByTagName('body')[0];b.className = b.className + ' demo-js';})(document);</script>
+    <header data-o-component="o-ft-header" class="o-ft-header stickable">
+    <div class="o-ft-header__container">
+        <div class="o-ft-header__primary">
+           
+<div class="o-ft-header__primary__center ft-masterhead">
+    <img src="http://interactivegraphics.ft-static.com/static/sites/2014/silver-economy/ft_white.svg" alt="Financial Times" height="20">
+</div>
+
+        </div>
+        
+    </div>
+</header>
+
+<div class="demo_content  o-grid-row">
+  <h1>The ageing consumer class</h1>
+  <div class="main-content intro-text" data-o-grid-colspan="S8 M10 L10 XL8">
+
+    <p>The world’s population is changing in ways that could barely be imagined a generation ago, and at a pace that is faster than any in recorded history. Not only are we all living longer, but in the richest countries – and in many newly middle class nations – people are having too few babies to keep population stable. By 2050, according to <a href="http://esa.un.org/unpd/wpp/">UN projections, those aged over 65 will outnumber children aged 5</a> and under, for the first time in human history.</p>
+
+<p>While that may store up challenges many years ahead, it also means that adults around the world now have more money to spend and invest than ever. Old no longer means “poor”. Consumer spending by over-50s is expected to account for roughly 60 per cent of the US total and 50 per cent in the UK.</p>
+
+<p>Industries, from cars to pharmaceuticals, and even the world of online dating, are having to adapt to this new generation of healthier, wealthier adults. This interactive graphic, as part of the Financial Times series on the silver economy, sets the demographic backdrop to understanding the changes being forced on businesses around the world.</p>
+    <div><img src="http://lorempixel.com/output/people-q-c-600-480-1.jpg" alt=""></div>
+    <div class="o-grid-row">
+      <div data-o-grid-colspan="S6 M6 L6 XL6"><h2>Sweden</h2></div>
+      <div data-o-grid-colspan="S6 M6 L6 XL6"><div class="o-ft-forms__field-group country-drop-down">
+        <label class="o-ft-forms__label"></label>
+        <select class="o-ft-forms__field--select">
+            <option value="option1">Sweden</option>
+            <option value="option2">Italy</option>
+            <option value="option3">France</option>
+            <option value="option4">UK</option>
+        </select>
+    </div></div>
+      
+       
+      
+    </div>
+  
+ 
+  
+ 
+   </div>
+</div>
+    <script src="http://build.origami.ft.com/bundles/js?modules=o-ft-header@2.5.13:/demos/src/demo.js"></script>
+    <script src="http://registry.origami.ft.com/embedapi?autoload=resize"></script>
+</body>
+</html>
